@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(193, 213, 250);
+    font-size: 12px;
+    font-weight: 100;
+   
+}
+
+form {
+    background-color: white;
+    color: blue;
+    padding: 5px;
+   
+}
+.contact{
+    max-width: 350px;
+     
+   
+}
+
+fieldset{
+    border-style: none;
+    
+}
+
+#issue{
+    border: none;
+    outline: 0;
+    
+}
+
+label{
+    position: absolute;
+    font-size: 16px;
+    
+   
+}
+
+.issue{
+    border: 0px;
+    width: 280px;
+    padding-top: 5px;
+    
+}
+#label{
+    padding: 3px;
+    border: 3px solid blue;
+    margin: 10px;
+    width: 84%;
+
+   
+}
+
+
+#chooseAnIssue{
+    padding: 5px;
+
+}
+
+
+::placeholder{
+color: blue;
+border: 0px 
+}
+
+textarea{
+    width: 90%;
+    border: 3px solid blue;
+    resize: none;
+   
+}
+
+input{
+    border: 3px solid blue;
+    width: 85%;
+    padding: 10px;
+}
+
+.submit{
+width: 30%;
+background-color: blue;
+line-height: 20px;
+padding: 5px;
+margin-left: 10px;
+color: white;
+
+}
+
+.cs{
+    margin: 10px;
+}
+
+p{
+    color: rgb(80, 231, 138);
+    padding: 10px;
+}
