@@ -9,48 +9,43 @@
 <body>
     <div class="contact">
         <form>
-            <h1 class="cs">Contact Support</h1>
-            
-            <fieldset>
-                <input type="text" placeholder="First Name" required autofocus/>
-            </fieldset>
-           
-            <fieldset>
-                <input type="text" placeholder="Email" required autofocus/>
-            </fieldset>
-          
-
-            <fieldset>
-                <input type="tel" placeholder="Phone" required autofocus/>
-            </fieldset>
-            
-            <div id="label">
+            <div>
+                <h1 class="cs">Contact Support</h1>
                 
-               
-                <label for="issue" id="chooseAnIssue">Choose an issue:</label>
+                <fieldset>
+                    <input type="text" placeholder="First Name" required autofocus/>
+                </fieldset>
+            
+                <fieldset>
+                    <input type="text" placeholder="Email" required autofocus/>
+                </fieldset>
+            
+
+                <fieldset>
+                    <input type="tel" placeholder="Phone" required autofocus/>
+                </fieldset>
+                
+                <div id="label">
+                    <label for="issue" id="chooseAnIssue">Choose an issue:</label>
+                    <br>
+                        <select name="issue" class="issue">
+                        <option value=""></option>  
+                        <option value="None">None</option>
+                        <option value="No Light">No Light</option>
+                        <option value="No Fuel">No Fuel</option>
+                        <option value="All">All</option>
+                        </select>
+                </div>
                 <br>
-                    <select name="issue" class="issue">
-                    <option value=""></option>  
-                    <option value="None">None</option>
-                    <option value="No Light">No Light</option>
-                    <option value="No Fuel">No Fuel</option>
-                    <option value="All">All</option>
-                    </select>
-    
+
+                <fieldset>
+                    <textarea type="text" placeholder="Let us know what you need help with..." rows="13" required autofocus></textarea>
+                </fieldset>
+            
+                    <input type="submit" placeholder="Submit" class="submit" required autofocus/>
+            
+                <h4>Thanks for submitting</h4>
             </div>
-<br>
-
-            <fieldset>
-                <textarea type="text" placeholder="Let us know what you need help with..." rows="10" required autofocus></textarea>
-            </fieldset>
-           
-
-            
-                <input type="submit" placeholder="Submit" class="submit" required autofocus/>
-           
-            
-            <p>Thanks for submitting</p>
-         
         </form>
     </div>
 </body>
